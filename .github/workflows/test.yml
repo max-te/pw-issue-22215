@@ -1,4 +1,6 @@
-
+name: Run Tests
+run-name: If this passes we reproduced the issue on CI
+on: [push]
 jobs:
   playwright:
     name: 'Playwright Tests'
